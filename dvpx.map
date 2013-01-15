@@ -2,7 +2,7 @@ keymaps 0-2,4-6,8-9,12
 alt_is_meta
 include "linux-with-alt-and-altgr.inc"
 strings as usual
-keycode 1  = Escape
+keycode 1  = Caps_Lock
 keycode 2  = ampersand   percent
 keycode 3  = bracketleft seven
 keycode 4  = braceleft   five
@@ -58,6 +58,6 @@ keycode 53 = z
 keycode 54 = Shift
 keycode 56 = Alt
 keycode 57 = space
-keycode 58 = Caps_Lock
+keycode 58 = Escape
 keycode 86 = less        greater
 keycode 97 = Control

@@ -1,12 +1,13 @@
-Modified Programmer Dvorak Layout
----------------------------------
+Programmer Dvorak Layout
+-------------------------
 
-It is the same as [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/) except the `<Escape>` and `<Caps_Lock>` is exchanged.
+dvp.map - [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/)
+dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` is exchanged.
 
 Usage
 -----
 
-Copy dvp.map to keymaps directory.
+Copy keymap file to keymaps directory.
 
 
 Tips
@@ -24,7 +25,7 @@ Tips
 3. Gentoo Keymap Configure
 
         File: /etc/conf.d/keymaps
-        Code: keymap="dvp"
+        Code: keymap="dvpx"
 
 4. Xorg keymap setting
 
