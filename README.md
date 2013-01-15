@@ -30,7 +30,8 @@ Tips
 
 4. Xorg keymap setting
 
-        It won't use dvp.map, just a remark.
+        It doesn't use dvp.map, just a remark.
+
         Keymap: /usr/share/X11/xkb/symbols/us
         Rules:  /usr/share/X11/xkb/rules/xorg.lst
 

@@ -16,7 +16,7 @@ if [ ! -d "$dest" ] ; then
 fi
 
 if [ ! -d "$dest" ] ; then
-  echo "Cannot find keymaps directory"
+  echo "Cannot find keymaps directory."
   exit 1
 fi
 
