@@ -2,6 +2,7 @@ Programmer Dvorak Layout
 -------------------------
 
 dvp.map - [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/)
+
 dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` is exchanged.
 
 Usage
