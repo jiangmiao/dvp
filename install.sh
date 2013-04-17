@@ -16,7 +16,7 @@ if [ ! -d "$dest" ] ; then
 fi
 
 if [ ! -d "$dest" ] ; then
-  echo "Cannot find keymaps directory."
+  echo -e "\033[31mCannot find keymaps directory.\033[0m"
   exit 1
 fi
 
@@ -24,8 +24,8 @@ command="cp dvp.map dvpx.map $dest"
 echo $command
 $command
 if [ $? -ne 0 ]; then
-  echo "Failed."
+  echo -e "\033[31mFailed.\033[0m"
   exit 2
 else
-  echo "Succeeded."
+  echo -e "\033[32mSucceeded.\033[0m"
 fi
