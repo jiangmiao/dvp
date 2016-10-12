@@ -20,7 +20,7 @@ if [ ! -d "$dest" ] ; then
   exit 1
 fi
 
-command="cp dvp.map dvpx.map $dest"
+command="cp dvp.map dvpx.map dvpy.map $dest"
 echo $command
 $command
 if [ $? -ne 0 ]; then

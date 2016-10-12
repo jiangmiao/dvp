@@ -5,6 +5,8 @@ dvp.map - [Programmer Dvorak](http://www.kaufmann.no/roland/dvorak/)
 
 dvpx.map - Programmer Dvorak with `<Escape>` and `<Caps_Lock>` exchanged.
 
+dvpy.map - Programmer Dvorak with `<Caps_Lock>` mapped to `<Control>`.
+
 Usage
 -----
 
